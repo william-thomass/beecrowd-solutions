@@ -17,7 +17,7 @@ X = 19
 
 lines = ["10","9"]
 
-const [A, B] = lines.slice(",").map(item => parseInt(item))
+const [A, B] = lines.slice(",").map((item) => parseInt(item))
 
 //console.log(A, B)
 
