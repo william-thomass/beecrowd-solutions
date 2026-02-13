@@ -17,7 +17,7 @@ DIFERENCA = -26
 
 lines = ["5","6","7","8"]
 
-const [ A , B , C , D ] = lines.splice(",").map(item=> parseInt(item))
+const [ A , B , C , D ] = lines.map(item=> parseInt(item))
 
 //console.log(A,B,C,D)
 
