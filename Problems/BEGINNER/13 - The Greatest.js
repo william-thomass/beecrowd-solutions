@@ -34,7 +34,6 @@ if(greatestOneTwo < numberThree){
 
 /*
 or
-console.log(`${greatestOneTwo} eh o maior`)
 const theGreatest = Math.max(numberOne, numberTwo, numberThree)
 console.log(`${theGreatest} eh o maior`)
 */
