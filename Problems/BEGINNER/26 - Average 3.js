@@ -19,8 +19,8 @@ Nota do exame: 6.4
 Aluno aprovado.
 Media final: 5.9
 */
-lines = ["2.0 4.0 7.5 8.0 ", "6.4"]
-//lines = ["2.0 6.5 4.0 9.0"]
+//lines = ["2.0 4.0 7.5 8.0 ", "6.4"]
+lines = ["2.0 6.5 4.0 9.0"]
 //weights 2, 3, 4 e 1 
 const [scoreOne, scoreTwo, scoreThree, scoreFour] = lines[0].split(" ").map((item) => parseFloat(item))
 const examScore = parseFloat(lines[1])
@@ -34,7 +34,7 @@ if(average >= 7.0){
   console.log("Aluno aprovado.")
 }else if(average < 5.0){
   console.log("Aluno reprovado.")
-}else if( average >= 5.0 || average <= 6.9){
+}else if( average >= 5.0 && average <= 6.9){
 console.log("Aluno em exame.")
 console.log(`Nota do exame: ${examScore.toFixed(1)}`)
 const averageEnd = (average + examScore) / 2
