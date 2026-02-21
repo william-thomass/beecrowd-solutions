@@ -17,4 +17,4 @@ lines = ["6 24"]
 
 const [numberOne, numberTwo] = lines[0].split(" ").map(item => parseInt(item))
 
-console.log(numberOne % numberTwo === 0 || numberTwo % numberOne === 0 ? "Sao multiplos":"Nao sao multiplos")
+console.log(numberOne % numberTwo === 0 || numberTwo % numberOne === 0 ? "Sao Multiplos":"Nao sao Multiplos")
